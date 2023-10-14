@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat+Alternates:wght@500&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,700&family=Niconne&family=PT+Mono&family=Poppins:wght@400;500&family=Roboto&family=Sacramento&family=Tinos&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    
+
+        <section id="section1">
+
+            <div id="toggle">
+                <!-- <nav> -->
+                    <div>
+                        <h1>MastanKhan</h1>
+                        
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="about_me">About Me</a></li>
+                            <li><a href="projects">Projects</a></li>
+                            <li><a href="contact">Contact</a></li>
+                        </ul>
+                    </div>
+                <!-- </nav> -->
+            </div>
+
+            <div class="about_me_div">
+            <div>
+                <div><img src="/images/about_me_img-modified-removebg-preview.png" alt="" id="about_me_img"></div>
+            </div>
+            <div>
+                <h2>About me</h2>
+                <table id="education_table">
+                    <caption>Education</caption>
+                    <thead>
+                        <th>Degree</th>
+                        <th>College</th>
+                        <th>Percentage</th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Bachelor Of Science(PCM)</td>
+                            <td>Bangalore University, Magadi</td>
+                            <td>75%</td>
+                        </tr>
+                        <tr>
+                            <td>XII(PCMB)</td>
+                            <td>BGS PU College, Magadi</td>
+                            <td>85.1%</td>
+                        </tr>
+                        <tr>
+                            <td>X</td>
+                            <td>Jawahar English Hight School, Magadi</td>
+                            <td>84.8%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+
+            <div id="skills_div">
+                <div>
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>
+                            <h4>Programming and Query Languages</h4>
+                            <p>Java, JavaScript(Basics), MySQL(Basics)</p>
+                        </li>
+                        <li>
+                            <h4>Frontend</h4>
+                            <p>Html, CSS</p>
+                        </li>
+                        <li>
+                            <h4>Frameworks</h4>
+                            <p>Basics Of SpringBoot, Bootstrap, JQuery</p>
+                        </li>               
+                        
+                    </ul>
+                </div>
+                <div>
+                    <h2>Hobbies</h2>
+                    <ul>
+                        <li>Water Coloring</li>
+                        <li>Mehndi</li>
+                        <li>Doodles</li>
+                        <li>Mandala</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Aim</h2>
+                    <ul>
+                        <li>Looking for an opportunity where I can utilise my skills.</li>
+                        <li>Coding for problem solving.</li>
+                        <li>Learning and up-skilling.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div>
+
+        </div>
+   
+    
+</body>
+</html>

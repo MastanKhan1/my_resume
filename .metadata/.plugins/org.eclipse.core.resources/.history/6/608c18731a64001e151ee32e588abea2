@@ -1,0 +1,5 @@
+package in.portfolio.portfolio_project.entity;
+
+public class User {
+
+}

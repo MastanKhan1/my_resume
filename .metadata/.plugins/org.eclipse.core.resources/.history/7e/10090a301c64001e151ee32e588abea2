@@ -1,0 +1,9 @@
+package in.portfolio.portfolio_project.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import in.portfolio.portfolio_project.entity.User;
+
+public interface MyRepository extends JpaRepository<User, Integer> {
+
+}

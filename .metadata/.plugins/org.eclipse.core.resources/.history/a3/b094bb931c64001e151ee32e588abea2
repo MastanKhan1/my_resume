@@ -1,0 +1,37 @@
+package in.portfolio.portfolio_project.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.servlet.ModelAndView;
+
+import in.portfolio.portfolio_project.entity.User;
+
+@Controller
+public class PortfolioController {
+
+	@GetMapping("/home")
+	public String toHome() {
+		return "home";
+	}
+	
+	@GetMapping("/about_me")
+	public String toAboutMe() {
+		return "about_me";
+	}
+	
+	@GetMapping("/contact")
+	public String toContact() {
+		return "contact";
+	}
+	
+	@GetMapping("/projects")
+	public String toProjects() {
+		return "projects";
+	}
+	
+	@GetMapping("/save")
+	public ModelAndView saveData(@ModelAttribute User user) {
+		return new ModelAndView("final", "user", user );
+	}
+}
